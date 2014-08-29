@@ -1,8 +1,14 @@
+"""
+CGI link shortener module
+Copyright (c) 2014 Tyler Philbrick
+See COPYING for license details
+"""
+
 import cgi
 import sqlite3
 
-import cgitb
-cgitb.enable()
+#import cgitb  #Uncomment for verbose error messages
+#cgitb.enable()
 
 SERVERN = "quetzal.vms.pw" #replace with automatic hostname id'ing
 
